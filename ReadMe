@@ -1,0 +1,11 @@
+how the app was made
+main screen 
+going be the requirement for the app i started with a basic and simple user interface and added edit text for the name for the song the artist how much the user rates the song and a comment the user can provide 
+also added some buttons the exit button, the next button and the add buttton 
+what this screen should do is after the user has clicked on it should take the use to the next screen  to view the details along with the details from the main screen
+and the add button it should take the user to another there screen for them to add more to the playlist at least 4 times
+the exit button should code the app
+the display screen 
+the user interface ha a very simpl build aswell  it has a display button to retrieve the data from the previous page and must be seen on the text view
+the average button should calculate the users rating the users input's average
+the return button takes the user back the main screen.

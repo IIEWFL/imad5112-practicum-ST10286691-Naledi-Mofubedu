@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/songTitleEt"
+        android:layout_width="381dp"
+        android:layout_height="64dp"
+        android:hint="Song Title" />
+
+    <EditText
+        android:id="@+id/artistEt"
+        android:layout_width="381dp"
+        android:layout_height="63dp"
+        android:hint="Artist Name" />
+
+    <EditText
+        android:id="@+id/rateEt"
+        android:layout_width="381dp"
+        android:layout_height="59dp"
+        android:hint="Rate (1–10)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/commentEt"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+        android:hint="Comment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/dialogCancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/dialogAddBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+    </LinearLayout>
+</LinearLayout>
